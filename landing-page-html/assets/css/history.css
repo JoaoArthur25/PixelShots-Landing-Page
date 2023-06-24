@@ -1,0 +1,52 @@
+.history {
+    background-color: #fff;
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.history-text {
+    max-width: 500px;
+    text-align: center;
+}
+
+.history h1 {
+    font-size: 36px;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.history p {
+    font-size: 18px;
+    color: #555;
+    margin-bottom: 30px;
+}
+
+.history-image {
+    width: 100%;
+    max-width: 500px;
+    margin-bottom: 20px;
+}
+
+.history-image img {
+    width: 100%;
+}
+
+@media screen and (min-width: 1000px) {
+  .history {
+    flex-direction: row;
+    align-items: flex-start;
+  }
+  
+  .history-text {
+    margin-right: 30px;
+    text-align: left;
+  }
+  
+  .history-image {
+    width: 40%;
+    margin-bottom: 0;
+  }
+}
